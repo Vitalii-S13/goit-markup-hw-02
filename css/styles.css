@@ -66,7 +66,7 @@ a {
     
         font-weight: 700;
         font-size: 56px;
-        line-height: 1.08;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #ffffff;
@@ -127,22 +127,31 @@ a {
         color: #434455;
 }
 
-.team {}
+.team {
+    background-color: #f4f4fd;
+}
 
 .team-title {
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.12;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize
 }
 
 .section-title {}
 
 .team-list {}
 
-.team-item {}
+.team-item {
+    background-color: #FFFFFF;
+        border-radius: 0 0 4px 4px;
+            padding: 0px 0px 32px 0px;
+            width: 264px;
+            height: 380px;
+}
 
 .team-img {}
 
@@ -169,10 +178,11 @@ a {
 .portfolio-title {
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.12;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize
 }
 
 .portfolio-list {}
@@ -198,99 +208,32 @@ a {
         color: #434455;
 }
 
-.page-footer {}
-
-.footer-logo {}
-
-
-
-
-
 .page-footer {
     background-color: #2e2f42;
+    width: 1440px;
+    height: 312px;
 }
-.footer-logo .logo-part {
+
+.footer-sectrion {
+    width: 264px;
+    height: 112px;
+}
+
+.footer-logo {
+
+}
+
+.logo-part, 
+.footer-text {
     color: #f4f4fd;
 }
+.footer-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+      
+}
 
 
 
-
-
-.page-header {}
-
-.header-nav {}
-
-.logo {}
-
-.header-logo {}
-
-.logo-part {}
-
-.nav-list {}
-
-.nav-item {}
-
-.nav-link {}
-
-.contacts {}
-
-.contacts-list {}
-
-.contacts-item {}
-
-.contacts-link {}
-
-.hero {}
-
-.hero-title {}
-
-.btn {}
-
-.btn-accent {}
-
-.benefits {}
-
-.visually-hidden {}
-
-.benefits-list {}
-
-.benefits-item {}
-
-.benefits-subtitle {}
-
-.benefits-text {}
-
-.team {}
-
-.team-title {}
-
-.section-title {}
-
-.team-list {}
-
-.team-item {}
-
-.team-img {}
-
-.team-member {}
-
-.team-caption {}
-
-.portfolio {}
-
-.portfolio-title {}
-
-.portfolio-list {}
-
-.portfolio-item {}
-
-.portfolio-img {}
-
-.portfolio-subtitle {}
-
-.portfolio-caption {}
-
-.page-footer {}
-
-.footer-logo {}
